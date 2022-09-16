@@ -2,6 +2,7 @@ import React, {StrictMode} from 'react';
 //import ReactDOM from 'react-dom';
 import {createRoot} from 'react-dom/client';
 import App from './App';
+import './App.css';
 
 // ⛔️ ReactDOM.render is no longer supported in React 18.
 // Use createRoot instead. Until you switch to the new API,

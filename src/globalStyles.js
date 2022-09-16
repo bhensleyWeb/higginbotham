@@ -5,16 +5,20 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size:2vw;
+  // font-family: 'Source Sans Pro', sans-serif;
  } 
+ 
+ body, html {
+   height: 100vh%;
+ }
 `;
 
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  margin-right: auto;
-  margin-left: auto;
+  margin:10px auto;
   padding-right: 50px;
   padding-left: 50px;
 
@@ -45,5 +49,14 @@ export const Button = styled.button`
     width: 100%;
   }
 `;
+
+export const Parallax = styled.div`
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(${props => props.bgImage });
+`
 
 export default GlobalStyle;

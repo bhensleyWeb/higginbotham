@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Tree from './pages/Tree';
 import Docs from './pages/Docs';
 import Stories from './pages/Stories';
+import './App.css';
 
 function App() {
 

@@ -18,7 +18,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
 
   ${Container}
 `;
@@ -31,7 +31,21 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+  }
 `;
+
+export const NavTitle = styled.span`
+color: #fff;
+font-size:2rem;
+
+&::first-letter{
+font-weight:bold;
+font-size:2.5rem;
+text-transform:uppercase;
+color:#97BDAB;
+`;
+  
+
 
 export const NavIcon = styled(GiFamilyTree)`
   margin-right: 0.5rem;

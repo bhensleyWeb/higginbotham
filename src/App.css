@@ -72,7 +72,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
-
 }
 .bgimg-1 {
   min-height: 550px;
@@ -83,14 +82,14 @@
 }
 
 .bgimg-3 {
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .caption {
   position: absolute;
   left: 0;
   top: 50%;
-  transform:translate(0, -50%);
+  transform:translateY(-50%);
   width: 100%;
   text-align: center;
   color: #000;
@@ -108,4 +107,66 @@
   width:100px;
   margin:20px auto;
   display: inline-block;
+}
+
+/* W3schools template website */
+/* Column container */
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #97BDAB;
+  color: #444;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
 }

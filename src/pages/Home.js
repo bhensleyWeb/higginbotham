@@ -1,90 +1,48 @@
-import React from 'react';
+import React from 'react'
 import { Container } from '../globalStyles';
 
-
-function Home() {
+const Home = () => {
   return (
-    <div className='home'>
+    <>
+      <Container>
       <div class="bgimg-1" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/overlooking-anaconda-mt-3.jpg")` }}>
-        <div class="caption">
-          <span class="border">Anaconda, MT </span>
-        </div>
-      </div>
-
-      <Container>
-        <div style={{
-          color: '#777',
-          backgroundColor: 'white',
-          padding: '50px 80px'
-        }}>
-          <h3 style={{ textAlign: 'center' }}>Welcome</h3>
-          <p>Welcome to my 'Higginbotham' family tree website. I created this site for several reasons. Firstly, I wanted to understand who I was. Like most people, I heard stories from my parents, or aunts and uncles. Most were questionable and having played 'Telephone' in grade school, I know stories are often conveluded or exaggerated with each iteration. By researching the Higginbotham Line, I have hopefully brought new light and clarity to some of the myths and legends surrounding this branch of our very, very, extended family. </p>
-          <br />
-          <h1>Dedication</h1>
-          <br />
-          <blockquote>
-            <ol>
-              <li><b>Noah</b>: For my son Noah, because someday he will have to do a family tree assignment, much like I did when I was young. Or, perhaps, he may be interested in his heritage on his own. Either way, I've made it simpler for him.</li>
-              <li><b>My mom - Ellen</b>: Since my maternal grandparents did not have any male children together, my mother and her sisters are the end of a line for our branch. Sure, there are thousands of Hig(g)inbothams out there, but without a male heir, my grandfather's name will not continue on this branch.</li>
-
-            </ol>
-          </blockquote>
-        </div>
-      </Container>
-      <div class="bgimg-2" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/coshocton_1846.jpg")` }}>
-        <div class="caption">
-          <span class="border" style={{
-            color: '#777',
-            backgroundColor: 'white',
-            fontSize: '25px',
-          }}>Coshocton, OH (1846)</span>
-        </div>
-      </div>
-      <Container>
-        <div style={{ position: 'relative' }}>
-          <div style={{
-            color: '#777',
-            backgroundColor: 'white',
-            textAlign: 'left',
-            padding: '50px 80px'
-          }}>
-            <h1>Research</h1>
+              <div class="caption">
+                <span class="border">Anaconda, MT </span>
+              </div>
+            </div>
+        <div className="row">
+          <div className="side">
+            <h2>Crest</h2>
+            <div style={{ height: "300px", textAlign: "center" }}><img src={`${process.env.PUBLIC_URL}/images/autvincereautmori.jpg`} /></div>
+            Whats in a name?
             <br />
-            <p> While deciding how to conduct my research, I decided to only do extensive resarch on the pedigree or direct lineage of my tree. To do in-depth study of each and every child, sibling, aunt, uncle, or distant cousin woul be never-ending. Siblings and children are noted for relatives, but not exccesively wide. Each generation doubles the number of parents which raises the hours needed to do the research exponentially. Additoinally, at a certain point, historical records simply do not exist or become unreliable. For my wife's family line, I was completly depandant on the recollection of living family members for lineage and name spellings.</p>
+            <quoteblock style={{ margin: '80% auto' }}>"That which we call a rose by any other name would smell as sweet." - William Shakespear (Romeo & Juliet)</quoteblock>
+            <br /><br />
+            <p>According to "The National Research Center<sup>&trade;</sup>" The English surname Higginbotham is of habitation origin, belinging to that category of surnames drived from the name of the place where an original bearer dwelt or where he once held land. Thus, it envokes simply "dweller in or man from Higginbotham". The place name itself has quite a complicated history, as is evidenced in early examples of the surname, which date from 1246.  For example , and Alexander Akinbothum is listed in the Assine Rolls for Lancaster. This was from Oakenbottom in Bolton-le-moors in Lancaster which was   "aecen-botome," "oaken vally". This became Eakenbottom, then Ickenbottom, which was subsequently associated with "hicken" or "higgin", a Lacanshire and Cheshire dialect-word for "mountain-ash"</p>
+            <p></p>
           </div>
-        </div>
-      </Container>
-      <div class="bgimg-3" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/crest.jpg")` }}>
-        <div class="caption">
-          <span class="border" style={{
-            backgroundColor: "#FFF",
-            fontSize: '25px',
-            color: '#777'
-          }}>Family Crest</span>
-        </div>
-      </div>
-      <Container>
-        <div style={{
-          position: 'relative'
-        }}>
-          <div style={{
-            color: '#ddd',
-            backgroundColor: '#282E34',
-            padding: '50px 80px',
-          }}><br />
-            <fieldset style={{ padding: "10px"}}><legend><h2>Whats in a name?</h2></legend>
-              <br />
-              <quoteblock style={{margin:'80% auto' }}>"That which we call a rose by any other name would smell as sweet." - William Shakespear (Romeo & Juliet)</quoteblock>
-              <br /><br />
-              <p>According to "The National Research Center<sup>&trade;</sup>" The English surname Higginbotham is of habitation origin, belinging to that category of surnames drived from the name of the place where an original bearer dwelt or where he once held land. Thus, it envokes simply "dweller in or man from Higginbotham". The place name itself has quite a complicated history, as is evidenced in early examples of the surname, which date from 1246.  For example , and Alexander Akinbothum is listed in the Assine Rolls for Lancaster. This was from Oakenbottom in Bolton-le-moors in Lancaster which was   "aecen-botome," "oaken vally". This became Eakenbottom, then Ickenbottom, which was subsequently associated with "hicken" or "higgin", a Lacanshire and Cheshire dialect-word for "mountain-ash"</p>
-              <p></p>
-            </fieldset>
-          </div>
-        </div>
+          <div className="main">
+            <h2>Welcome</h2>
+            
+            <br />
+            <p>Welcome to my Higginbotham family tree site. I first began this page as a tribute to two people. First to my son so that he would know where he comes from and the type of people who are apart of his heritage. And also because he may have to do a family tree assignment some day and I want to give him the most information possible. Secondly for my mother. Since my maternal grandparents did not have any male children, my mother and her sisters are the end of a line - so to speak. The final leaves on a particular twig on a specific branch in a rather large and expansive tree. </p>
+            <p>I have done my best to capture the truest sense of my pedigree. I followed the lines upward more than outward. And while there are thousands of Higginbothams in the world today, I attempted only to trace that singular path back as far as I could. To conduct reasarch, document, and define every aunt, uncle, and cousin who ever decened from the original settlers in 1608 would be a massive undertaking for which I simply do not have time for. Some of these cousins, aunts, etc are listed when their stories seemed interesting enough to do so.  </p>
+            <p>Given the amount of data transcribed, the passing of stories and inflamation of history, there may be errors in my interpretation of relationships, dates, etc. Any user who can provide proof of erros and sugested corrections is welcome to contact me to request an edit.</p>
+            <br />
+            <h2>How to use this site</h2>
+            <div class="bgimg-1" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/coshocton_1846.jpg")`, height:'100px' }}></div>
+            <p>I have attempted to break this site into three main sections, <ul>
+              <li>Tree - the tree itself showing links to individuals and documents related to them.</li>
+              <li>Documents - a library of marriage certificates, death certificates and obituaries, land warrents, and other supporting documentaion.</li>
+              <li>Stories - A collection of interesting stories uncovered during my research</li>
+              <li>Notes - Credits and general synopsis of confusing relationships throughout the tree. Links to resources and cited records.</li>
+            </ul>
+            </p>
 
+          </div>
+        </div>
       </Container>
-    </div>
-  );
+    </>
+  )
 }
-
 export default Home;

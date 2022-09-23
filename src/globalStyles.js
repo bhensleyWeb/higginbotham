@@ -1,12 +1,12 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  * {
+  html, body, div{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size:2vw;
-  // font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
  } 
  
  body, html {
@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 90%;
   margin:10px auto;
   padding-right: 50px;
   padding-left: 50px;

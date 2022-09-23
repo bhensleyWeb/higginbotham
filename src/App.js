@@ -6,13 +6,10 @@ import Home from './pages/Home';
 import Tree from './pages/Tree';
 import Docs from './pages/Docs';
 import Stories from './pages/Stories';
+import Notes from './pages/Notes';
 import './App.css';
 
 function App() {
-
-
-
-
 
   return (
     <>
@@ -44,6 +41,10 @@ function App() {
             exact
             path='/stories'
             element={<Stories />} />
+
+          <Route
+            path= '/notes'
+            element={<Notes />} />
         </Routes>
       </Router>
     </>

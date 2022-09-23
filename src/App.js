@@ -24,21 +24,21 @@ function App() {
 
           <Route
             exact
-            path='/tree'
+            path='/higgginbotham/tree'
             element={<Tree />} />
 
           <Route
             exact
-            path='/docs'
+            path='/higgginbotham/docs'
             element={<Docs />} />
 
           <Route
             exact
-            path='/stories'
+            path='/higgginbotham/stories'
             element={<Stories />} />
 
           <Route
-            path= '/notes'
+            path= '/higgginbotham/notes'
             element={<Notes />} />
         </Routes>
       </Router>

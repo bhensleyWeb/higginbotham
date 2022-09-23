@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route
             exact
-            path='/higgginbotham'
+            path='/higgginbotham/'
             element={<Home />} />
 
           <Route

@@ -23,7 +23,6 @@ function App() {
             element={<Home />} />
 
           <Route
-            exact
             path='/higgginbotham'
             element={<Home />} />
 

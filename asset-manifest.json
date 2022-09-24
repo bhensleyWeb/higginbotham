@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/higginbotham/static/css/main.e796d7d7.css",
-    "main.js": "/higginbotham/static/js/main.43fc4fa7.js",
+    "main.js": "/higginbotham/static/js/main.2ee7b3b5.js",
     "index.html": "/higginbotham/index.html",
     "main.e796d7d7.css.map": "/higginbotham/static/css/main.e796d7d7.css.map",
-    "main.43fc4fa7.js.map": "/higginbotham/static/js/main.43fc4fa7.js.map"
+    "main.2ee7b3b5.js.map": "/higginbotham/static/js/main.2ee7b3b5.js.map"
   },
   "entrypoints": [
     "static/css/main.e796d7d7.css",
-    "static/js/main.43fc4fa7.js"
+    "static/js/main.2ee7b3b5.js"
   ]
 }

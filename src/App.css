@@ -170,3 +170,18 @@
     width: 100%;
   }
 }
+
+/* Zoom magnifier */
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 8px;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 200px;
+  height: 100px;
+}

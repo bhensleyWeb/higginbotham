@@ -7,7 +7,7 @@ const Docs = () => {
     <div className='docs'>
       <h1>Documents, Pictures, Saved Files</h1>
       <hr />
-      <p>Documents provided were taken from </p>
+      <p>Documents provided were taken from multiple sites and other family trees linked to my tree on Ancestry.com. </p>
       <h2>Birth and Baptisms</h2>
       <h2>Marriage Licenses</h2>
       <h2>Death Certificates and Obituaries</h2>

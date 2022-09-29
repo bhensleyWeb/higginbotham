@@ -18,8 +18,8 @@ const Home = () => {
             <br /><br />
             <p>According to "The National Research Center<sup>&trade;</sup>" The English surname Higginbotham is of habitation origin, belinging to that category of surnames drived from the name of the place where an original bearer dwelt or where he once held land. Thus, it envokes simply "dweller in or man from Higginbotham". The place name itself has quite a complicated history, as is evidenced in early examples of the surname, which date from 1246.  For example , and Alexander Akinbothum is listed in the Assine Rolls for Lancaster. This was from Oakenbottom in Bolton-le-moors in Lancaster which was   "aecen-botome," "oaken vally". This became Eakenbottom, then Ickenbottom, which was subsequently associated with "hicken" or "higgin", a Lacanshire and Cheshire dialect-word for "mountain-ash"</p>
             <h2>Crest - Coat of Arms</h2>
-            <div style={{textAlign: "center" }}><img src={`${process.env.PUBLIC_URL}/images/crest.jpg`} width="300px" alt='coat of arms' /></div>
-            <p><dl><dt>Description</dt>
+            <div style={{textAlign: "center" }}><img src={`${process.env.PUBLIC_URL}/images/Crest.jpg`} width="300px" alt='coat of arms' /></div>
+            <p><dl><dt>Heraldry</dt>
             <dd>Argant, a rose gules, barbed and sedded 'or' with dexter and sinister arm shooting an arrow from a bow all proper or helm.</dd>
             <dd>Argent (white or silver) - denotes purity, innocense, beauty, peace.</dd>
             <dd>Arrow - one who is prepared for battle.</dd>
@@ -43,7 +43,7 @@ const Home = () => {
             <h2>How to use this site</h2>
             <div class="bgimg-1" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/coshocton_1846.jpg")`, height:'100px' }}></div>
             <p>I have attempted to break this site into four main sections, <ul>
-              <li>Tree - the tree itself showing links to individuals and documents related to them.</li>
+              <li>Tree - the tree itself showing my ancestry.</li>
               <li>Documents - a library of marriage certificates, death certificates and obituaries, land warrents, and other supporting documentaion.</li>
               <li>Stories - A collection of interesting stories uncovered during my research</li>
               <li>Notes - Credits and general synopsis of confusing relationships throughout the tree. Links to resources and cited records.</li>

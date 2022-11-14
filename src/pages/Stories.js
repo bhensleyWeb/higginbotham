@@ -36,7 +36,7 @@ const Stories = () => {
         </div>
         <div>
         <h2>Other Notables</h2>
-          <p>Other notable Higginbothams include one George Washington Higginbotham. G.W. Higginbotham was sone of Ralph Higginbotham, nephew of Charles Higginbotham who raised him. It is unclear who the parents of Ralph Higginbotham are. It is most likely John Ralph Higginbotham or Thomas Higginbotham (both brothers of Charles). George W. Higginbotham was an active member of the Maryland charter and penned the proposal of a new county in Maryland - "Prince George County". This proposal was also signed by Van Swearingen (Cresap). </p>
+          <p>Other notable Higginbothams include one George Washington Higginbotham. G.W. Higginbotham was son of Ralph Higginbotham, nephew of Charles Higginbotham who raised him. It is unclear who the parents of Ralph Higginbotham are. It is most likely John Ralph Higginbotham or Thomas Higginbotham (both brothers of Charles). George W. Higginbotham was an active member of the Maryland charter and penned the proposal of a new county in Maryland - "Prince George County". This proposal was also signed by Van Swearingen (Cresap). </p>
           <p>Whenever you come across the surname Higginbotham in early american history, you will most assuridly see a Henthorn close by. The Henthorn's and Higginbotham's were close families that shared more than the ocassional dinner table. I have found numerous documents listing John and James Henthorn with Ralph and Charles HIgginbotham. In fact, One Henthorn brother would marry Mary Margaret Higginbotham. And their daughter Mary later marrie Ralph Henry Higginbotham. *shhh - kissing cousins, I know.</p>
         </div>
 

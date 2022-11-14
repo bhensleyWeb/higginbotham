@@ -30,7 +30,7 @@ const Home = () => {
             </dl>
             <br />
             </p>
-            <p> The family crest is oftend displayed with a motto scrolled on the bottom 'Aut Vicire aut Morri' which litterally translates to 'either conquer or die' or less literal, 'By Aim and By Effort'</p>
+            <p> The family crest is oftend displayed with a motto scrolled above or below the coat reading 'Aut Vicire aut Morri' which litterally translates to 'either conquer or die' or less literal, 'By Aim and By Effort'</p>
            
           </div>
           <div className="main">

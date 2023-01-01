@@ -51,6 +51,11 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
+                <NavLinks to='/higginbotham/land' onClick={closeMobileMenu}>
+                  Land
+                </NavLinks>
+              </NavItem>
+              <NavItem>
                 <NavLinks to='/higginbotham/stories' onClick={closeMobileMenu}>
                   Stories
                 </NavLinks>

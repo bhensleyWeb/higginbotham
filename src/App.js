@@ -8,6 +8,7 @@ import Docs from './pages/Docs';
 import Stories from './pages/Stories';
 import Notes from './pages/Notes';
 import './App.css';
+import Land from './pages/Land';
 
 function App() {
 
@@ -32,10 +33,14 @@ function App() {
             path='/higginbotham/docs'
             element={<Docs />} />
 
-          <Route
+<Route
             exact
             path='/higginbotham/stories'
-            element={<Stories />} />
+            element={<Stories />} />          
+        <Route
+            exact
+            path='/higginbotham/land'
+            element={<Land />} />
 
           <Route
             path= '/higginbotham/notes'

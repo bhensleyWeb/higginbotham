@@ -7,7 +7,7 @@ const Home = () => {
       <Container>
       <div class="bgimg-1" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/overlooking-anaconda-mt-3.jpg")` }}>
               <div class="caption">
-                <span class="border">Anaconda, MT </span>
+                <span class="border" style={{whiteSpace:'none',fontSize:'3vw'}}>Anaconda, MT </span>
               </div>
             </div>
         <div className="row">
@@ -42,11 +42,12 @@ const Home = () => {
             <br />
             <h2>How to use this site</h2>
             <div class="bgimg-1" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/images/coshocton_1846.jpg")`, height:'100px' }}></div>
-            <p>I have attempted to break this site into four main sections, <ul>
+            <p>I have attempted to break this site into the following sections, <ul>
               <li>Tree - the tree itself showing my ancestry.</li>
               <li>Documents - a library of marriage certificates, death certificates and obituaries, land warrents, and other supporting documentaion.</li>
               <li>Stories - A collection of interesting stories uncovered during my research</li>
               <li>Notes - Credits and general synopsis of confusing relationships throughout the tree. Links to resources and cited records.</li>
+              <li>Land - Land warrents and permits granted.</li>
             </ul>
             </p>
             

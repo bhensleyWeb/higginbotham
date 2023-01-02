@@ -11,7 +11,7 @@ const Docs = () => {
       <h2>Birth and Baptisms</h2>
 
       <h2>Marriage Licenses</h2>
-      <p><a href="https://drive.google.com/file/d/1PbIMjo4LQnGq7irlq91MWYtvpNK0Kwzv/view?usp=sharing" target="_new">Georeg HIgginbotham - Elizabeth Stevens (3 Feb, 1708)</a></p>
+      <p><a href="https://drive.google.com/file/d/1PbIMjo4LQnGq7irlq91MWYtvpNK0Kwzv/view?usp=sharing" target="_new">Georeg Oliver HIgginbotham - Elizabeth Stevens (3 Feb, 1708)</a></p>
       <p><a href="https://drive.google.com/file/d/1IuhdGKxa4_Sg5jxQyD6CtGZ3LDVE4KGt/view?usp=shareing" target="_new">Samuel Higinbotham & Ester Cowden (8 Aug, 1811)</a></p>
       <p><a href="https://drive.google.com/file/d/1P6mvCvfDtrgjbtL7qCqwoxJfA2UNutEI/view?usp=sharing" target="_new">Edward Ambrose Higinbotham - Elizabeth P. Miller (24 Feb 1902)</a></p>
       <p><a href="https://drive.google.com/file/d/1kx_7T6Sq9Jnp2etvJFJ01X0eaKuv8ZKK/view?usp=sharing" target="_new">Samuel Higinbotham & Perle Ward (23 Jun, 1932)</a></p>
